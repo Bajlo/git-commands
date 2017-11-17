@@ -61,3 +61,8 @@ git show <log>
 git log --author=""
 git log --pretty=oneline
 git log --graph --oneline --decorate --all
+
+--- help --------------------
+
+git help
+git help <command>
