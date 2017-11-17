@@ -43,6 +43,18 @@ git branch --merge
 git merge <branch>
 git push origin master
 
+--- undo --------------------
+
+git checkout <file>
+git commit --amend -m ""
+git cherry-pick <hash>
+git reset --soft <hash>
+git reset <hash>
+git reset --hard <hash>
+git reflog
+git checkout <hash>
+git revert <hash>
+
 --- log ---------------------
 
 git log --author=""
