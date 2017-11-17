@@ -24,16 +24,20 @@ git commit -m ""
 --- branching  --------------
 
 git branch
-git branch branchname
-git branch -d branchname
-git checkout branchname
+git branch <branch>
+git branch -d <branch>
+git checkout <branch>
 
---- push changes ------------
+--- push remote -------------
 
 git remote add origin <server>
 git remote set-url origin <server>
-
 git push origin master
+
+--- update remote -----------
+
+git pull
+git merge <branch>
 
 --- log ---------------------
 
