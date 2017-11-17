@@ -34,10 +34,13 @@ git remote add origin <server>
 git remote set-url origin <server>
 git push origin master
 
---- update remote -----------
+--- update / merge ----------
 
-git pull
+git checkout master
+git pull origin master
+git branch --merge
 git merge <branch>
+git push origin master
 
 --- log ---------------------
 
