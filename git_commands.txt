@@ -1,15 +1,17 @@
+--- setting up git ----------
+
 git config --global user.name ""
 git config --global user.email ""
 git config --list
 
--------------------------
+--- setting up repository ---
 
 git init
 or
 git clone /path/to/repository
 git clone username@host:/path/to/repository
 
--------------------------
+--- most common -------------
 
 (touch .gitignore)
 git diff
@@ -19,7 +21,21 @@ git add *
 git reset
 git commit -m ""
 
-log ---------------------
+--- branching  --------------
+
+git branch
+git branch branchname
+git branch -d branchname
+git checkout branchname
+
+--- push changes ------------
+
+git remote add origin <server>
+git remote set-url origin <server>
+
+git push origin master
+
+--- log ---------------------
 
 git log --author=""
 git log --pretty=oneline
