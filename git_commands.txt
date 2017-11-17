@@ -24,6 +24,7 @@ git commit -m ""
 --- branching  --------------
 
 git branch
+git branch -a
 git branch <branch>
 git branch -d <branch>
 git checkout <branch>
