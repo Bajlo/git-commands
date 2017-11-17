@@ -11,14 +11,12 @@ or
 git clone /path/to/repository
 git clone username@host:/path/to/repository
 
---- most common -------------
+--- add / commit ------------
 
-(touch .gitignore)
 git diff
 git status
-git add file
+git add <filename>
 git add *
-git reset
 git commit -m ""
 
 --- branching  --------------
@@ -48,6 +46,7 @@ git push origin master
 git checkout <file>
 git commit --amend -m ""
 git cherry-pick <hash>
+git reset
 git reset --soft <hash>
 git reset <hash>
 git reset --hard <hash>
